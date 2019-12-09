@@ -2,3 +2,4 @@ body{background-color:black;}
 .time{font-size:15px;}
 .userName {color: #5DBCD2;}
 .navbar{height:80px;}
+li{list-style: none;}
