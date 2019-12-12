@@ -1,0 +1,16 @@
+#main{background-image: url("C:/Users/Mobile Programming/Desktop/RMS/demo/src/assets/dashboard/bgnew.png");
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.heading{color:white;text-align: center;padding-top: 60px;}
+h4{margin:0 auto;}
+.container{margin:0 auto;text-align: center;margin-top: 2%;}
+.col-lg-2{background: white;margin:1px;border-radius: 5px;}
+.col-xs-4{background: white;margin:5px;border-radius: 5px;width:110px;height:60px;}
+.dashboard{height:150px;margin:10px;}
+img{margin-top: 10%;}
+.banner{margin-left:3%;}
