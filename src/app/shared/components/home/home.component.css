@@ -9,8 +9,28 @@
 .heading{color:white;text-align: center;padding-top: 60px;}
 h4{margin:0 auto;}
 .container{margin:0 auto;text-align: center;margin-top: 2%;}
-.col-lg-2{background: white;margin:1px;border-radius: 5px;}
-.col-xs-4{background: white;margin:5px;border-radius: 5px;width:110px;height:60px;}
-.dashboard{height:150px;margin:10px;}
-img{margin-top: 10%;}
-.banner{margin-left:3%;}
+.col-lg-2{background: red;}
+.col-xs-4{background: white;margin:10px;border-radius: 8px;width:100px;}
+img{margin-top: 11%;}
+.banner{margin:0 2.3%;width:200px;}
+.col-xs-12{width:200px;}
+.row{margin-top: 5%;display:flex;}
+span .dashboard{}
+.caption{font-size: 15px;margin:10px;font-family:bold;color:#2A4058;}
+.py-3{color:white;}
+@media screen and (min-width: 0px) and (max-width: 440px) {
+  .caption { display: none; }   /* hide it elsewhere */
+}
+@media screen and ( min-width: 390px) {
+  img.banner { width: 100px;}
+  }
+  @media screen and (max-width:1024px){
+    img.responsive {width: 330px;}
+  }
+
+  @media screen and (min-width:1025px){
+    img.responsive{width: 521px;}
+  }
+
+  img.responsive{height: auto;}
+.image1{position: absolute;bottom:2%;right:-5%;}
