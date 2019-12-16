@@ -1,4 +1,4 @@
-#main{background-image: url("C:/Users/Mobile Programming/Desktop/RMS/demo/src/assets/dashboard/bgnew.png");
+.main{background-image: url("C:/Users/Mobile Programming/Desktop/RMS/demo/src/assets/dashboard/bgnew.png");
   background-color: #cccccc;
   height: 100%;
   background-position: center;
@@ -6,10 +6,36 @@
   background-size: cover;
   position: relative;
 }
+.header{color:white;text-align: center;font-size: 20px;padding-top: 3%;}
+.row{width:1000px;margin-left: 3%;}
+li{width:150px;height:160px;background: white;list-style: none;margin:14px;border-radius: 15px;text-align: center;}
+img{margin-top: 12%;text-align: center;}
+.caption{margin-top: 8%;font-family: bold;}
+.responsive{width:430px;margin-left: 10px;}
+.menu2{margin-left: 3%;margin-top: -3%;}
+.image1{position: absolute;right:55%;bottom:9%;}
+.image2{position: absolute;right:25%;bottom: 9%;}
+.py-3{color:white;}
+@media screen and (min-width: 0px) and (max-width: 440px) {
+  .caption { display: none; }
+}
+@media screen and (max-width: 375px) {
+  li {
+    width:100px;
+    height:100px;
+    margin:5px;
+    border-radius: 10px;
+  }
+  .row{margin-left: -7%;width:400px;}
+  .responsive{width:320px;}
+  .image1{position: absolute;bottom:23.5%;right:16%;}
+  .image2{position: absolute;bottom:8.5%;right:16%;}
+}
+
+/*
 .heading{color:white;text-align: center;padding-top: 60px;}
 h4{margin:0 auto;}
 .container{margin:0 auto;text-align: center;margin-top: 2%;}
-.col-lg-2{background: red;}
 .col-xs-4{background: white;margin:10px;border-radius: 8px;width:100px;}
 img{margin-top: 11%;}
 .banner{margin:0 2.3%;width:200px;}
@@ -19,7 +45,7 @@ span .dashboard{}
 .caption{font-size: 15px;margin:10px;font-family:bold;color:#2A4058;}
 .py-3{color:white;}
 @media screen and (min-width: 0px) and (max-width: 440px) {
-  .caption { display: none; }   /* hide it elsewhere */
+  .caption { display: none; }
 }
 @media screen and ( min-width: 390px) {
   img.banner { width: 100px;}
@@ -34,3 +60,4 @@ span .dashboard{}
 
   img.responsive{height: auto;}
 .image1{position: absolute;bottom:2%;right:-5%;}
+*/
